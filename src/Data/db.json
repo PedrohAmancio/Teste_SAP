@@ -1,0 +1,19 @@
+{
+    "usuarios": [
+        {
+            "id": 7,
+            "nome": "Cristiano",
+            "email": "cr7@gmail.com"
+        }
+    ],
+    "livros":[
+        {
+            "id": 1,
+            "titulo":"A jornada",
+            "autor":"Ronaldo",
+            "genero": "Drama",
+            "Status": "Quero ler",
+            "usuario": "Cristiano"
+        }
+    ]
+}
