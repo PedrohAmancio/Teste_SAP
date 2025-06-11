@@ -9,6 +9,7 @@ import { Container } from "react-bootstrap";
 
 //importando o companente de barra de navegação 
 import BarraNavegacao from "./Components/BarraNavegacao";
+import Home from "./Pages/Home";
 
 function App() {
   return (

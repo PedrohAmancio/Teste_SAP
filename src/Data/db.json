@@ -1,19 +1,40 @@
 {
-    "usuarios": [
-        {
-            "id": 7,
-            "nome": "Cristiano",
-            "email": "cr7@gmail.com"
-        }
-    ],
-    "livros":[
-        {
-            "id": 1,
-            "titulo":"A jornada",
-            "autor":"Ronaldo",
-            "genero": "Drama",
-            "Status": "Quero ler",
-            "usuario": "Cristiano"
-        }
-    ]
+  "usuarios": [
+    {
+      "id": "7",
+      "nome": "Cristiano",
+      "email": "cr7@gmail.com"
+    },
+    {
+      "id": "bcd0",
+      "nome": "Dito",
+      "email": "naoeumpokemon@gmail.com"
+    }
+  ],
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "A jornada",
+      "autor": "Ronaldo",
+      "genero": "Drama",
+      "Status": "Quero ler",
+      "usuario": "Cristiano"
+    },
+    {
+      "titulo": "O principe ",
+      "autor": "Maquiavel",
+      "generos": "Não ficção",
+      "status": " Quero ler ",
+      "usuario": "Dito",
+      "id": "1836"
+    },
+    {
+      "titulo": "O principe ",
+      "autor": "Maquiavel",
+      "generos": "Não ficção",
+      "status": " Quero ler ",
+      "usuario": "Dito",
+      "id": "82b5"
+    }
+  ]
 }

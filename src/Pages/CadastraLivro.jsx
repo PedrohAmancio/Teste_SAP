@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 
-import { useListaUsuarios } from "../hooks/UseUsuario";
+import { useListaUsuario } from "../hooks/UseUsuario";
 
 import { useInserirLivro } from "../hooks/UseLivro";
 
@@ -20,14 +20,14 @@ const CadastroLivro = () => {
 
   const navigate = useNavigate();
 
-  const usuarios = useListaUsuarios();
+  const usuarios = useListaUsuario();
 
   const { inserirLivro } = useInserirLivro();
 
   const onSubmit = (data) => {
     console.log(data);
     inserirLivro(data);
-    alert("Usuario cadastro");
+    alert("Livro cadastrado");
     navigate("/home");
   };
   const onError = (errors) => {

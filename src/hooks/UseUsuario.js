@@ -22,7 +22,7 @@ export function useListaUsuario(){
     return usuarios;
 }
 export function useInserirUsuario(){
-    const InserirUsuario = async (data)=>{
+    const inserirUsuario = async (data)=>{
         const req = await fetch(`${url}/usuarios`, 
         {
             method: "POST",
@@ -31,9 +31,9 @@ export function useInserirUsuario(){
             },
             body: JSON.stringify(data),
         }
-    );
+        );
         const res = await req.json()
         return res;
     };
-    return {InserirUsuario}
+    return {inserirUsuario}
 }

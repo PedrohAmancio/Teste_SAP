@@ -8,7 +8,7 @@ const BarraNavegacao = () => {
   return (
     <div> 
         
-        <Navbar expand="lg" bg="sucess" data-bs-theme="dark">
+        <Navbar expand="lg" bg="success" data-bs-theme="dark" >
         <Container>
         {/* Logomarca biblioteca */}
         <Navbar.Brand href="/home">

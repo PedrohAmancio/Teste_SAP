@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 
 import App from "./App";
-import Home from "./pages/Home";
+import Home from "./Pages/Home";
 import CadastroUsuario from "./Pages/CadastroUsuario";
 import CadastraLivro from "./Pages/CadastraLivro";
 import EditarLivro from "./Pages/EditarLivro";
